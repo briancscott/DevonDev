@@ -2,6 +2,7 @@
     var self = this;
 
     self.myHometown = ko.observable("");
+    self.myUserName = ko.observable("");
 
     Sammy(function () {
         this.get('#home', function () {
